@@ -13,18 +13,23 @@ They are not required but can improve workflow, increase productivity, and make 
 
 -----
 
-## GitHub
+## 1. Join the Club
 
 1. Create a free account on [GitHub](https://github.com/), a platform that hosts project code.
 2. Copy this starter repository into your own GitHub account by clicking the 'Fork' button at the top of this page.
+3. Watch [Git and GitHub for Beginners - Crash Course, first 20 min](https://www.youtube.com/watch?v=RGOj5yH7evk) to get started.
 
-## Set Up Your Machine
+
+## 2. Set Up Your Machine
 
 ### Install Git
 
 1. Download and install Git from the [official Git website](https://git-scm.com/). Git helps manage our code and data.
-2. After installation, open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and set up Git with your name and email. Replace "John Doe" and "<johndoe@example.com>" with your name and email in the commands below and then paste them into your terminal. After pasting each command, hit ENTER to run each command.
-
+2. After installation, open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and configure Git with your name and email.
+3. Replace "John Doe" and "johndoe@example.com" with your name and email in the commands below.
+4. Type (or paste) your version of the first command into your terminal and hit ENTER to run it.
+5. When it completes, type (or paste) your version of the second command into your terminal and run it.
+   
     ```bash
     git config --global user.name "John Doe"
     git config --global user.email "johndoe@example.com"
@@ -32,13 +37,13 @@ They are not required but can improve workflow, increase productivity, and make 
 
 ### Install VS Code
 
-1. Download and install VS Code from the [official VS Code website](https://code.visualstudio.com/). We use VS Code throughout this course (and in several others).
+Download and install VS Code from the [official VS Code website](https://code.visualstudio.com/). 
 
 🚀 Rocket Tip: Invest time in learning VS Code. The more you make use of your editor, the more productive you'll be.
 
 -----
 
-## Customize Your Web App
+## 3. Customize Your Web App
 
 We customize this web app by changing the name and colors. We'll get exposure to HTML, CSS, and JavaScript - the 3 key languages of the web, but we're not going for mastery. Learn their names and you can search for more information as needed. These exercises are designed to help explore the possibilities of these incredible, free tools we can use to create immediately useful things.
 
@@ -65,8 +70,6 @@ With your repo folder open in VS Code:
 1. Important: Enter a brief commit message describing your changes.
 1. Change the "Commit" button dropdown to "Commit and Push" to send your changes back to GitHub.
 
------
-
 ### Test the Web Page
 
 Use File Explorer (Windows) or Finder (Mac) to navigate to your repo folder and open index.html file with your favorite browser. I use Chrome, but most browsers should work fine.
@@ -74,7 +77,9 @@ Use File Explorer (Windows) or Finder (Mac) to navigate to your repo folder and 
 🚀 Rocket Tip: search for the VS Code Extension: Live Preview by Microsoft and add it to your VS Code.
 Then, right-click on index.html and select "Show Preview" to view your web page without leaving VS Code.
 
-### Keep Experimenting
+-----
+
+## 4. Keep Experimenting
 
 That's it! You're all set. Use the same process to modify other files in your repo.
 
@@ -90,6 +95,11 @@ Use CTRL f to find the TODO items.
 Then, open the TODO Tree view icon (added to the icon column on the left) to see all the TODO items in your project.
 
 -----
+
+## 5. Publish Your App with GitHub Pages
+
+GitHub lets us publish our client-side web apps for free with GitHub Pages. 
+Read [PUBLISH.md](PUBLISH.md) to learn how to make your app available on the web. 
 
 ## Reminders
 

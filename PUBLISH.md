@@ -6,7 +6,7 @@ To publish your website to GitHub Pages, follow these steps.
 
 1. Go to your forked repository on GitHub.
 2. Click on the "Settings" tab. You may have to click the three dots - It's all the way to the right. See Screenshots below.
-3. Scroll down and click the "GitHub Pages" section.
+3. Scroll down and click the "Pages" section.
 4. Under the "Source" dropdown, select the branch you want to publish (e.g., "main").
 5. Click on the "Save" button.
 
