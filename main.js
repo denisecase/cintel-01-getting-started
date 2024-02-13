@@ -3,8 +3,8 @@ Purpose: JavaScript provides the logic or behavior for the web page.
 
 Configure two 'event listeners'.
 
-1. One that listens continously for the user entering their name. 
-1. One that listens continously for the user entering their favorite language(s). 
+1. One that listens continuously for the user entering their name. 
+1. One that listens continuously for the user entering their favorite language(s). 
 
 Use document.getElementById().addEventListener() to configure the event listeners.
 
@@ -17,7 +17,7 @@ document.getElementById("nameInput").addEventListener("input", () => {
     - Use 'document.getElementById("nameInput").value' to retrieve the text 
     the user has entered into the input field and store it in a variable named 'user'.
 
-    - Use backtics (a template literal) to construct a personalized greeting 
+    - Use backticks (which create a template literal) to construct a personalized greeting 
     from an embedded expression and store it in a variable named 'welcome_string'.
 
     - Find the html element with id='welcome' (a paragraph tag in our HTML) 
@@ -25,7 +25,7 @@ document.getElementById("nameInput").addEventListener("input", () => {
     
     The webpage updates in real time, displaying our custom greeting.
 
-    TODO: Keep the ${user}, but change the rest of the string to a greeting of your choice.
+    TODO: Keep ${user}, but change the rest of the string to a custom greeting.
     */
     let user = document.getElementById("nameInput").value;
     let welcome_string = `Greetings ${user}!`;

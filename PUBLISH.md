@@ -16,13 +16,11 @@ Example: Finding Settings tab
 Example: Setting the Source
 ![Setting the Source](images/GitHub-Pages-Setting-the-Source.PNG)
 
-
 ## 2. Access Your Published Website
 
 1. Once you've saved the GitHub Pages settings, scroll back down to the "GitHub Pages" section.
 2. You will see a message indicating that your site is published. It will provide you with the URL for your published website (e.g., `https://your-github-username.github.io/your-repository-name/`).
 3. Click on the URL to visit your published website and verify that it's working correctly.
-
 
 ## 3. Update Your Website
 

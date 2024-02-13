@@ -45,15 +45,24 @@
 
     -->
 
-    <!-- TODO: Change the tab title to include YOUR name Dashboard. -->
-
+    <!-- Add standard meta tags   -->
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO: Change the tab title to include YOUR name Dashboard. -->
+
     <title>Case Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- Add link tag to BOOTSTRAP css styles -->
+    <!-- Go to https://getbootstrap.com/ and click "Read the Docs / Get started with Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Add link tag to own own custom css styles -->
+
+    <link href="main.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -84,17 +93,6 @@
 
     -->
 
-    <!--  TODO: Modify the links to reflect YOUR GitHub username.-->
-    <nav>
-        <a href="https://github.com/denisecase">About</a>
-        ◆
-        <a href="https://github.com/denisecase/cintel-01-getting-started"> GitHub Repository </a>
-        ◆
-        <a href="https://denisecase.github.io/cintel-01-getting-started/"> GitHub Pages Webapp </a>
-  
-    </nav>
-
-
     <!--  TODO: Use your name Dashboard in the top level heading (h1) on the page.-->
 
     <header>
@@ -103,26 +101,39 @@
 
     <section class="container">
         <aside class="sidebar">
-            <h2>Sidebar Panel</h2>
+            <h2>Sidebar</h2>
             <hr>
-            <h3>User Interaction Here</h3>
+            <h3>Interaction</h3>
             <p>Enter your name:</p>
             <input type="text" id="nameInput" placeholder="Your Name">
             <p>Enter your favorite language(s):</p>
             <input type="text" id="languageInput" placeholder="Favorite Programming Language(s)">
             <hr>
+            <!--  TODO: Modify the links to reflect YOUR GitHub username.-->
+            <h3>Links</h3>
+            <nav>
+                <a href="https://github.com/denisecase">GitHub</a>
+                <br>
+                <a href="https://github.com/denisecase/cintel-01-getting-started"> GitHub Repository </a>
+                <br>
+                <a href="https://denisecase.github.io/cintel-01-getting-started/"> GitHub Pages App </a>
+            </nav>
         </aside>
         <article class="main">
-            <h2>Main Panel with Reactive Output</h2>
+            <h2>Main Area with Reactive Output</h2>
             <hr>
             <p id="welcomeOutput"></p>
             <p id="insightsOutput"></p>
         </article>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    <!-- Add script tag for BOOTSTRAP code -->
+    <!-- Go to https://getbootstrap.com/ and click "Read the Docs / Get started with Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <!-- Add script tag with own own custom JavaScript code -->
 
     <script src="main.js"></script>
 

@@ -4,12 +4,11 @@
 - GitHub Repository: [cintel-01-getting-started](https://github.com/denisecase/cintel-01-getting-started)
 - Author: [Denise Case](https://github.com/denisecase)
 
-
-We begin with two important tools: Git and VS Code. 
+We begin with two important tools: Git and VS Code.
 If you are new to them, don't worry - they're relatively easy to learn and very powerful.
-Many of us use them throughout our career. 
+Many of us use them throughout our career.
 
-Note: 🚀 Rocket Tips are for learners who want to go beyond the basics. 
+Note: 🚀 Rocket Tips are for learners who want to go beyond the basics.
 They are not required but can improve workflow, increase productivity, and make things more enjoyable.
 
 -----
@@ -17,8 +16,7 @@ They are not required but can improve workflow, increase productivity, and make 
 ## GitHub
 
 1. Create a free account on [GitHub](https://github.com/), a platform that hosts project code.
-2. Copy this starter repository into your own GitHub account by clicking the 'Fork' button at the top of this page. 
-
+2. Copy this starter repository into your own GitHub account by clicking the 'Fork' button at the top of this page.
 
 ## Set Up Your Machine
 
@@ -34,9 +32,9 @@ They are not required but can improve workflow, increase productivity, and make 
 
 ### Install VS Code
 
-1. Download and install VS Code from the [official VS Code website](https://code.visualstudio.com/). We use VS Code throughout this course (and in several others). 
+1. Download and install VS Code from the [official VS Code website](https://code.visualstudio.com/). We use VS Code throughout this course (and in several others).
 
-🚀 Rocket Tip: Invest time in learning VS Code. The more you make use of your editor, the more productive you'll be. 
+🚀 Rocket Tip: Invest time in learning VS Code. The more you make use of your editor, the more productive you'll be.
 
 -----
 
@@ -45,7 +43,7 @@ They are not required but can improve workflow, increase productivity, and make 
 We customize this web app by changing the name and colors. We'll get exposure to HTML, CSS, and JavaScript - the 3 key languages of the web, but we're not going for mastery. Learn their names and you can search for more information as needed. These exercises are designed to help explore the possibilities of these incredible, free tools we can use to create immediately useful things.
 
 ### Get the Code to your Local Machine
-    
+
 1. Open VS Code and from the menu, select **View** / **Command Palette**.
 1. Type "Git: Clone" in the command palette and select it.
 1. Enter the URL (web address) of your forked GitHub repository (make sure it contains your GitHub username - not denisecase).
@@ -71,24 +69,24 @@ With your repo folder open in VS Code:
 
 ### Test the Web Page
 
-Use File Explorer (Windows) or Finder (Mac) to navigate to your repo folder and open index.html file with your favorite browser. I use Chrome, but most browsers should work fine. 
+Use File Explorer (Windows) or Finder (Mac) to navigate to your repo folder and open index.html file with your favorite browser. I use Chrome, but most browsers should work fine.
 
-🚀 Rocket Tip: search for the VS Code Extension: Live Preview by Microsoft and add it to your VS Code. 
+🚀 Rocket Tip: search for the VS Code Extension: Live Preview by Microsoft and add it to your VS Code.
 Then, right-click on index.html and select "Show Preview" to view your web page without leaving VS Code.
 
 ### Keep Experimenting
 
 That's it! You're all set. Use the same process to modify other files in your repo.
 
-Experiment while changing to your name and colors. 
+Experiment while changing to your name and colors.
 
 - modify index.html, then commit and push
 - modify main.css, then commit and push
 - modify main.js, then commit and push
 
-Use CTRL f to find the TODO items. 
+Use CTRL f to find the TODO items.
 
-🚀 Rocket Tip: Search for the VS Code Extension: Todo Tree and add it to your VS Code. 
+🚀 Rocket Tip: Search for the VS Code Extension: Todo Tree and add it to your VS Code.
 Then, open the TODO Tree view icon (added to the icon column on the left) to see all the TODO items in your project.
 
 -----
