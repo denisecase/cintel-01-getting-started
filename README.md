@@ -19,17 +19,16 @@ They are not required but can improve workflow, increase productivity, and make 
 2. Copy this starter repository into your own GitHub account by clicking the 'Fork' button at the top of this page.
 3. Watch [Git and GitHub for Beginners - Crash Course, first 20 min](https://www.youtube.com/watch?v=RGOj5yH7evk) to get started.
 
-
 ## 2. Set Up Your Machine
 
 ### Install Git
 
 1. Download and install Git from the [official Git website](https://git-scm.com/). Git helps manage our code and data.
 2. After installation, open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and configure Git with your name and email.
-3. Replace "John Doe" and "johndoe@example.com" with your name and email in the commands below.
+3. Replace "John Doe" and "<johndoe@example.com>" with your name and email in the commands below.
 4. Type (or paste) your version of the first command into your terminal and hit ENTER to run it.
 5. When it completes, type (or paste) your version of the second command into your terminal and run it.
-   
+
     ```bash
     git config --global user.name "John Doe"
     git config --global user.email "johndoe@example.com"
@@ -37,7 +36,7 @@ They are not required but can improve workflow, increase productivity, and make 
 
 ### Install VS Code
 
-Download and install VS Code from the [official VS Code website](https://code.visualstudio.com/). 
+Download and install VS Code from the [official VS Code website](https://code.visualstudio.com/).
 
 🚀 Rocket Tip: Invest time in learning VS Code. The more you make use of your editor, the more productive you'll be.
 
@@ -98,8 +97,8 @@ Then, open the TODO Tree view icon (added to the icon column on the left) to see
 
 ## 5. Publish Your App with GitHub Pages
 
-GitHub lets us publish our client-side web apps for free with GitHub Pages. 
-Read [PUBLISH.md](PUBLISH.md) to learn how to make your app available on the web. 
+GitHub lets us publish our client-side web apps for free with GitHub Pages.
+Read [PUBLISH.md](PUBLISH.md) to learn how to make your app available on the web.
 
 ## Reminders
 
