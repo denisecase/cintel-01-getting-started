@@ -23,7 +23,7 @@ They are not required but can improve workflow, increase productivity, and make 
 ### Install Git
 
 1. Download and install Git from the [official Git website](https://git-scm.com/). Git helps manage our code and data.
-2. After installation, open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and set up Git with your name and email. Replace "John Doe" and "johndoe@example.com" with your name and email in the commands below and then paste them into your terminal. After pasting each command, hit ENTER to run each command.
+2. After installation, open your terminal (PowerShell on Windows, Terminal on Mac/Linux) and set up Git with your name and email. Replace "John Doe" and "<johndoe@example.com>" with your name and email in the commands below and then paste them into your terminal. After pasting each command, hit ENTER to run each command.
 
     ```bash
     git config --global user.name "John Doe"
