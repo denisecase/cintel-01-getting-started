@@ -1,18 +1,18 @@
 # ============================================================
-# pyproject.toml (Python and MkDocs project configuration)
+# pyproject.toml (Python project configuration)
 # ============================================================
 # REQ.PYTHON: Python projects MUST include pyproject.toml as the single source of truth.
 # WHY: Centralizes project configuration.
 
 [project]
-name = "c-intel" # CUSTOM: Package distribution name (use lowercase and dashes).
+name = "cintel" # Package distribution name (lowercase and dashes).
 readme = "README.md"
 requires-python = ">=3.14"
 version = "0.1.0"
 
 dependencies = [
     # REQ.DEPS: External packages used by the project code.
-    "datafun-toolkit>=0.9.6",
+    "datafun-toolkit",
 ]
 
 [project.optional-dependencies]
@@ -27,8 +27,8 @@ dev = [
 
 docs = [
     # REQ.DOCS.DEPS: External packages used to generate project documentation.
-    "mkdocstrings[python]>=1.0.0",
-    "zensical>=0.0.24",
+    "mkdocstrings[python]",
+    "zensical",
 ]
 
 # === RUFF (PYTHON FORMATTING AND LINTING) ===

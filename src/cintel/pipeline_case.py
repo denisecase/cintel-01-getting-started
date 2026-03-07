@@ -1,32 +1,34 @@
 """
-case_pipeline.py - Project script (starter).
+pipeline_case.py - Project script (example).
 
-Author: Your Name
-Date: 2026-03-
+Author: Denise Case
+Date: 2026-03-07
 
 Purpose:
   Confirm your project environment is set up correctly.
   Run this script to see a log message in the terminal.
 
 Run as a Module:
-  uv run python -m cintel.case_pipeline
+  uv run python -m cintel.pipeline_case
 """
 
 # === DECLARE IMPORTS ===
 
+# First from the Python standard library (no installation needed)
 import logging
 from pathlib import Path
 
+# Then, external dependencies (must be listed in pyproject.toml)
 from datafun_toolkit.logger import get_logger, log_header, log_path
 
 # === CONFIGURE LOGGER ===
 
-LOG: logging.Logger = get_logger("CI", level="DEBUG")
+LOG: logging.Logger = get_logger("P1", level="DEBUG")
 
-# === DEFINE GLOBAL PATHS ===
+# === DECLARE GLOBAL CONSTANTS FOR FOLDER PATHS (directories) ===
 
-ROOT_PATH: Path = Path.cwd()
-DOCS_PATH: Path = ROOT_PATH / "docs"
+ROOT_DIR: Path = Path.cwd()
+DOCS_DIR: Path = ROOT_DIR / "docs"
 
 # === DEFINE THE MAIN FUNCTION ===
 
@@ -37,14 +39,14 @@ def main() -> None:
     log_header() logs a standard run header.
     log_path() logs repo-relative paths (privacy-safe).
     """
-    log_header(LOG, "CI Pipeline")
+    log_header(LOG, "CINTEL")
 
     LOG.info("========================")
     LOG.info("START main()")
     LOG.info("========================")
 
-    log_path(LOG, "ROOT_PATH", ROOT_PATH)
-    log_path(LOG, "DOCS_PATH", DOCS_PATH)
+    log_path(LOG, "ROOT_DIR", ROOT_DIR)
+    log_path(LOG, "DOCS_DIR", DOCS_DIR)
 
     LOG.info("========================")
     LOG.info("Pipeline executed successfully!")

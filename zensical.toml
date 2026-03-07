@@ -55,8 +55,7 @@ features = [
 # ------------------------------------------------------------
 # Navigation
 # ------------------------------------------------------------
-# Zensical supports navigation configuration; the shape below mirrors your MkDocs nav.
-# If you later decide to rely more on folder-based navigation, you can simplify.
+# Folder-based navigation is an optional alternative.
 
 nav = [
     { "Home" = "index.md" },

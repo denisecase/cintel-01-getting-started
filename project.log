@@ -1,0 +1,17 @@
+2026-03-07 16:06:17 | INFO | P1 | === RUN START ===
+2026-03-07 16:06:17 | INFO | P1 | project=CINTEL
+2026-03-07 16:06:17 | INFO | P1 | repo_dir=cintel-01-getting-started
+2026-03-07 16:06:17 | INFO | P1 | python=3.14.0
+2026-03-07 16:06:17 | INFO | P1 | os=Windows 11
+2026-03-07 16:06:17 | INFO | P1 | shell=powershell
+2026-03-07 16:06:17 | INFO | P1 | cwd=.
+2026-03-07 16:06:17 | INFO | P1 | github_actions=False
+2026-03-07 16:06:17 | INFO | P1 | ========================
+2026-03-07 16:06:17 | INFO | P1 | START main()
+2026-03-07 16:06:17 | INFO | P1 | ========================
+2026-03-07 16:06:17 | INFO | P1 | ROOT_DIR = .
+2026-03-07 16:06:17 | INFO | P1 | DOCS_DIR = docs
+2026-03-07 16:06:17 | INFO | P1 | ========================
+2026-03-07 16:06:17 | INFO | P1 | Pipeline executed successfully!
+2026-03-07 16:06:17 | INFO | P1 | ========================
+2026-03-07 16:06:17 | INFO | P1 | END main()

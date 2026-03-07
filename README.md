@@ -21,13 +21,15 @@ These projects are **hands-on textbooks** for learning applied continuous intell
 ## This Project
 
 This is the **getting started** project.
-The goal is to copy this repository, set up your environment so you can run the pipeline, and push the new file it generates to GitHub.
+The goal is to copy this repository,
+set up your environment so you can run the pipeline,
+and push the new file it generates to GitHub.
 Then, you'll change the authorship to make it yours and explore the project.
 No major code changes required.
 
 You'll work with just these files:
 
-- **src/cintel/case_pipeline.py** - where the magic happens
+- **src/cintel/pipeline_case.py** - where the magic happens
 - **pyproject.toml** - update authorship & links
 - **zensical.toml** - update authorship & links
 
@@ -93,7 +95,7 @@ uv self update
 uv python pin 3.14
 uv sync --extra dev --extra docs --upgrade
 
-uv run python -m cintel.case_pipeline
+uv run python -m cintel.pipeline_case
 
 uv run ruff format .
 uv run ruff check . --fix

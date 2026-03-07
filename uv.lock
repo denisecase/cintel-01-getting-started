@@ -3,7 +3,16 @@ revision = 3
 requires-python = ">=3.14"
 
 [[package]]
-name = "c-intel"
+name = "cfgv"
+version = "3.5.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/4e/b5/721b8799b04bf9afe054a3899c6cf4e880fcf8563cc71c15610242490a0c/cfgv-3.5.0.tar.gz", hash = "sha256:d5b1034354820651caa73ede66a6294d6e95c1b00acc5e9b098e917404669132", size = 7334, upload-time = "2025-11-19T20:55:51.612Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/db/3c/33bac158f8ab7f89b2e59426d5fe2e4f63f7ed25df84c036890172b412b5/cfgv-3.5.0-py2.py3-none-any.whl", hash = "sha256:a8dc6b26ad22ff227d2634a65cb388215ce6cc96bbcc5cfde7641ae87e8dacc0", size = 7445, upload-time = "2025-11-19T20:55:50.744Z" },
+]
+
+[[package]]
+name = "cintel"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
@@ -24,24 +33,15 @@ docs = [
 
 [package.metadata]
 requires-dist = [
-    { name = "datafun-toolkit", specifier = ">=0.9.6" },
-    { name = "mkdocstrings", extras = ["python"], marker = "extra == 'docs'", specifier = ">=1.0.0" },
+    { name = "datafun-toolkit" },
+    { name = "mkdocstrings", extras = ["python"], marker = "extra == 'docs'" },
     { name = "packaging", marker = "extra == 'dev'" },
     { name = "pre-commit", marker = "extra == 'dev'" },
     { name = "ruff", marker = "extra == 'dev'" },
     { name = "validate-pyproject", marker = "extra == 'dev'" },
-    { name = "zensical", marker = "extra == 'docs'", specifier = ">=0.0.24" },
+    { name = "zensical", marker = "extra == 'docs'" },
 ]
 provides-extras = ["dev", "docs"]
-
-[[package]]
-name = "cfgv"
-version = "3.5.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/4e/b5/721b8799b04bf9afe054a3899c6cf4e880fcf8563cc71c15610242490a0c/cfgv-3.5.0.tar.gz", hash = "sha256:d5b1034354820651caa73ede66a6294d6e95c1b00acc5e9b098e917404669132", size = 7334, upload-time = "2025-11-19T20:55:51.612Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/db/3c/33bac158f8ab7f89b2e59426d5fe2e4f63f7ed25df84c036890172b412b5/cfgv-3.5.0-py2.py3-none-any.whl", hash = "sha256:a8dc6b26ad22ff227d2634a65cb388215ce6cc96bbcc5cfde7641ae87e8dacc0", size = 7445, upload-time = "2025-11-19T20:55:50.744Z" },
-]
 
 [[package]]
 name = "click"
@@ -66,11 +66,11 @@ wheels = [
 
 [[package]]
 name = "datafun-toolkit"
-version = "0.9.6"
+version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/35/ef/58a2aa2b9c5a2d78a12f1a8034634e026a553d5ca08a006f6d5cd5eeaa6b/datafun_toolkit-0.9.6.tar.gz", hash = "sha256:c8627c14ebfecee4d1b9ee1313fe551c5f725cc7fcdccbc31ba1a8b01be12520", size = 57831, upload-time = "2026-03-06T21:24:13.575Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/34/9b/8129c47656e183d1a24687d83d69b25dd5248a2f847fa594350c7ae8b520/datafun_toolkit-1.0.0.tar.gz", hash = "sha256:34eec90e183628e5c39e4b53de859be21f470f77607aff1557690d23e6755ad2", size = 57247, upload-time = "2026-03-06T22:57:33.671Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/22/a1/73e722db4617ad30990946a516cbbe71ef0b028503365c7adb06e2aea220/datafun_toolkit-0.9.6-py3-none-any.whl", hash = "sha256:c70a28dc8a83b8872682e2b0eadb6e305a0e5008e18f4ceb2d4e53d61034c69a", size = 9937, upload-time = "2026-03-06T21:24:12.077Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/c0/35b0b55c4bb1a4a8445550715d376b1e9dc9011dfa263a307ecf9ab77dab/datafun_toolkit-1.0.0-py3-none-any.whl", hash = "sha256:a14c0d63f8457e020dfd93192b418a56ae333e0bf9d73e9780b3d45c78cdef2e", size = 9880, upload-time = "2026-03-06T22:57:32.184Z" },
 ]
 
 [[package]]
@@ -374,15 +374,15 @@ wheels = [
 
 [[package]]
 name = "python-discovery"
-version = "1.1.0"
+version = "1.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "filelock" },
     { name = "platformdirs" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/82/bb/93a3e83bdf9322c7e21cafd092e56a4a17c4d8ef4277b6eb01af1a540a6f/python_discovery-1.1.0.tar.gz", hash = "sha256:447941ba1aed8cc2ab7ee3cb91be5fc137c5bdbb05b7e6ea62fbdcb66e50b268", size = 55674, upload-time = "2026-02-26T09:42:49.668Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/67/09765eacf4e44413c4f8943ba5a317fcb9c7b447c3b8b0b7fce7e3090b0b/python_discovery-1.1.1.tar.gz", hash = "sha256:584c08b141c5b7029f206b4e8b78b1a1764b22121e21519b89dec56936e95b0a", size = 56016, upload-time = "2026-03-07T00:00:56.354Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/06/54/82a6e2ef37f0f23dccac604b9585bdcbd0698604feb64807dcb72853693e/python_discovery-1.1.0-py3-none-any.whl", hash = "sha256:a162893b8809727f54594a99ad2179d2ede4bf953e12d4c7abc3cc9cdbd1437b", size = 30687, upload-time = "2026-02-26T09:42:48.548Z" },
+    { url = "https://files.pythonhosted.org/packages/75/0f/2bf7e3b5a4a65f623cb820feb5793e243fad58ae561015ee15a6152f67a2/python_discovery-1.1.1-py3-none-any.whl", hash = "sha256:69f11073fa2392251e405d4e847d60ffffd25fd762a0dc4d1a7d6b9c3f79f1a3", size = 30732, upload-time = "2026-03-07T00:00:55.143Z" },
 ]
 
 [[package]]
