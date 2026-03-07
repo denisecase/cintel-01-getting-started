@@ -15,52 +15,78 @@ setting up a professional environment,
 reading and running code,
 understanding the logic,
 and pushing work to a shared repository.
-Each project follows the structure of professional Python projects.
-We learn by doing.
+Each project follows a very similar structure based on professional Python projects.
+These projects are **hands-on textbooks** for learning applied continuous intelligence.
 
 ## This Project
 
 This is the **getting started** project.
-The goal is to copy this repository, set up your environment, run the example pipeline, and push your work to GitHub.
-You'll change the authorship to make it yours and explore the project without making major code changes.
+The goal is to copy this repository, set up your environment so you can run the pipeline, and push the new file it generates to GitHub.
+Then, you'll change the authorship to make it yours and explore the project.
+No major code changes required.
 
-You will only work with these files:
+You'll work with just these files:
 
-- **src/cintel/case_pipeline.py** - where the logic happens
+- **src/cintel/case_pipeline.py** - where the magic happens
 - **pyproject.toml** - update authorship & links
 - **zensical.toml** - update authorship & links
 
-## Instructions
+The goal is just to confirm you can run projects on your machine.
+Once you get the first project running successfully, the rest of the course is much easier.
+
+## First: Follow These Instructions
 
 Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
 
-1. Phase 1. Start & Run
-2. Phase 2. Change Authorship
-3. Phase 3. Read & Understand
+1. Phase 1. **Start & Run**
+2. Phase 2. **Change Authorship**
+3. Phase 3. **Read & Understand**
 
-The guide walks through each phase in detail.
-Follow the instructions to create your own working copy and use YOUR GitHub account in the `git clone` command below.
+## Challenges
 
-Commands are listed for convenience only - you will need the full instructions from the workflow guide linked above.
+Challenges are expected.
+Sometimes instructions may not quite match your operating system.
+When issues occur, share screenshots, error messages, and details about what you tried.
+Working through issues is part of implementing professional projects.
 
-## Command Summary
+## Success
 
-You will need the detailed instructions the first few times you run this process.
-These are core skills and setting a good foundation will pay off many times over.
-
-In a machine Terminal (open in Repos folder):
+After completing Phase 1. **Start & Run**, you'll have your own GitHub project, running on your machine, and running the pipeline will print out:
 
 ```shell
-# **IMPORTANT**: In the git clone command below,
-# replace username with YOUR GitHub username
-# as described in the instructions above.
+========================
+Pipeline executed successfully!
+========================
+```
 
+And a new file named `project.log` will appear in the project folder.
+
+Once you see it, you're 90% of the way there.
+After that, you'll just make the project yours and get started exploring.
+
+## Command Reference
+
+The commands below are used in the workflow guide above.
+They are provided here for convenience.
+
+Follow the guide for the **full instructions**.
+
+<details>
+<summary>Show command reference</summary>
+
+### In a machine terminal (open in your `Repos` folder)
+
+After you get a copy of this repo in your own GitHub account,
+open a machine terminal in your `Repos` folder:
+
+```shell
+# Replace username with YOUR GitHub username.
 git clone https://github.com/username/cintel-01-getting-started
 cd cintel-01-getting-started
 code .
 ```
 
-In a VS Code Terminal:
+### In a VS Code terminal
 
 ```shell
 uv self update
@@ -77,6 +103,8 @@ git add -A
 git commit -m "update"
 git push -u origin main
 ```
+
+</details>
 
 ## Notes
 
