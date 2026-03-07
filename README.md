@@ -53,7 +53,7 @@ Working through issues is part of implementing professional projects.
 
 ## Success
 
-After completing Phase 1. **Start & Run**, you'll have your own GitHub project, running on your machine, and running the pipeline will print out:
+After completing Phase 1. **Start & Run**, you'll have your own GitHub project, running on your machine, and running the example will print out:
 
 ```shell
 ========================

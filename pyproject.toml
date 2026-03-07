@@ -73,7 +73,7 @@ ignore = [
 
 [tool.ruff.lint.isort]
 # WHY: Ordering imports helps keep code diffs (differences) readable.
-force-sort-within-sections = true
+force-sort-within-sections = false # WHY: Avoid unnecessary churn by only sorting within sections.
 
 # === PER-FILE IGNORES (DEPENDS ON DOCSTRING POLICY) ===
 
