@@ -1,7 +1,5 @@
 # cintel-01-getting-started
 
-[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://denisecase.github.io/cintel-01-getting-started/)
-[![CI Status](https://github.com/denisecase/cintel-01-getting-started/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/denisecase/cintel-01-getting-started/actions/workflows/ci-python-zensical.yml)
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](#)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
@@ -34,7 +32,8 @@ You'll work with just these files:
 - **zensical.toml** - update authorship & links
 
 The goal is just to confirm you can run projects on your machine.
-Once you get the first project running successfully, the rest of the course is much easier.
+Once you get the first project running successfully,
+the rest of the course is much easier.
 
 ## First: Follow These Instructions
 
@@ -53,7 +52,8 @@ Working through issues is part of implementing professional projects.
 
 ## Success
 
-After completing Phase 1. **Start & Run**, you'll have your own GitHub project, running on your machine, and running the example will print out:
+After completing Phase 1. **Start & Run**, you'll have your own GitHub project,
+running on your machine, and running the example will print out:
 
 ```shell
 ========================
