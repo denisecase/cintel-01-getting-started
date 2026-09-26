@@ -16,3 +16,7 @@ Complete:
 1. Phase 2. **Change Authorship** – update the project to your name and GitHub account
 2. Phase 3. **Read & Understand** – review the project structure and code
 3. Phase 4. **Make a Technical Modification** - make a small change and verify it still runs.
+
+---
+
+[◄ Back to 🏠 Home](index.md)

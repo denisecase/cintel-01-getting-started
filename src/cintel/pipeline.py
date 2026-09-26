@@ -1,15 +1,12 @@
 """
-pipeline_case.py - Project script (example).
-
-Author: Denise Case
-Date: 2026-03-07
+pipeline.py - Project script (example).
 
 Purpose:
   Confirm your project environment is set up correctly.
   Run this script to see a log message in the terminal.
 
 Run as a Module:
-  uv run python -m cintel.pipeline_case
+  uv run python -m cintel.pipeline
 """
 
 # === DECLARE IMPORTS ===

@@ -4,15 +4,15 @@
 
 # REQ.UNIVERSAL: Professional open projects SHOULD include CITATION.cff.
 # WHY: Support correct citation and attribution.
-# ALT: Internal or private repositories may omit citation metadata.
 # CUSTOM: Update author, repository, license, and keyword fields as needed.
 # USAGE: See https://citation-file-format.github.io/ for details.
 
 cff-version: "1.2.0"
+message: "If using this project, please cite it as described in this file."
 type: software
 
-title: Continuous Intelligence 01 Getting Started
-date-released: "2026-03-06"
+title: "cintel-01-getting-started"
+date-released: "2026-09-25"
 
 authors:
   - family-names: Case
@@ -29,22 +29,16 @@ abstract: |
   professional Python project structure and workflows.
 
 keywords:
-  # identity
   - data analytics
   - continuous intelligence
-
-  # practices
   - professional workflows
   - reproducible workflows
   - software quality
-
-  # tools and ecosystem
-  - python
   - git
   - github
-  - pre-commit
-  - uv
+  - prek
+  - python
   - ruff
+  - ty
+  - uv
   - zensical
-
-message: "If using this project, please cite it as described in this file."
