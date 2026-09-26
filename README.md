@@ -40,7 +40,7 @@ the rest of the course is much easier.
 Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
 
 1. Phase 1. **Start & Run**
-2. Phase 2. **Change Authorship**
+2. Phase 2. **Take Ownership**
 3. Phase 3. **Read & Understand**
 
 ## Challenges
@@ -113,7 +113,7 @@ In the VS Code terminal,
 paste each command and hit Enter or Return after to run it.
 
 ```shell
-uv run prek install -f
+uv run prek install --force
 uv run prek update --freeze --cooldown-days 7
 
 git add -A

@@ -12,8 +12,8 @@
 #   - pyproject.toml (Python tool settings)
 #
 # OPTIONAL LOCAL USAGE (keep tools updated):
-#   uv run prek install
-#   uv run prek autoupdate
+#   uv run prek install --force
+#   uv run prek update
 #
 # OPTIONAL LOCAL USAGE (run all hooks on all git-tracked files):
 #   git add -A

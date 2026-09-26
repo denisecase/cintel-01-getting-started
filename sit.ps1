@@ -53,7 +53,7 @@ uv sync
 uv audit
 
 # set up and run git hooks
-uv run prek install
+uv run prek install --force
 uv run prek update
 git add -A
 uv run prek run --all-files
