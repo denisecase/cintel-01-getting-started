@@ -36,7 +36,7 @@ requires-dist = [{ name = "datafun-toolkit" }]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pytest", specifier = ">=9" },
+    { name = "pytest" },
     { name = "pytest-cov" },
     { name = "ruff" },
     { name = "ty" },
