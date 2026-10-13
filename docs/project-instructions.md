@@ -29,7 +29,8 @@ Review the example data, code, and results.
 
 Follow [Workflow C: Start New Project](https://denisecase.github.io/pro-analytics-02/workflow-c-start-new-project/).
 
-IMPORTANT: New repository name: **cintel-01-getting-started-custom**.
+IMPORTANT: New repository name:
+**cintel-01-getting-started-custom**.
 
 VERIFY: You have completed git add-commit-push to GitHub at least twice.
 
