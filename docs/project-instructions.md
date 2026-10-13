@@ -2,20 +2,17 @@
 
 ## Goal
 
-Get familiar with Web Mining and Applied NLP Python projects and
+Get familiar with continuous intelligence analytics Python projects and
 the key areas where we implement and present our work.
-
-The goal is to get a professional Python project running successfully.
 
 ## Common Workflows
 
 We hope things go well, but sometimes they don't.
-To avoid repeating common workflows and troubleshooting help
-in every example project, we've consolidated
+To avoid polluting every example project with
+common workflows and troubleshooting help, we've consolidated
 common steps into one central guide.
-
-The guide provides the detailed instructions needed
-to complete these professional workflows.
+That guide should have everything you need to complete the steps
+and practice these professional workflows common to many analytics projects.
 
 ## A. Set Up Machine
 
@@ -26,22 +23,14 @@ if your machine is not ready.
 
 Follow [Workflow B: Explore Example Project](https://denisecase.github.io/pro-analytics-02/workflow-b-explore-example-project/).
 
-Explore how the example:
-
-- Retrieves text from a web page.
-- Extracts text using BeautifulSoup.
-- Calculates word frequencies using Polars.
-- Creates a frequency chart and word cloud.
-- Records execution details in a project log.
-
-Review the example code and results.
+Review the example data, code, and results.
 
 ## C. Start New Project
 
 Follow [Workflow C: Start New Project](https://denisecase.github.io/pro-analytics-02/workflow-c-start-new-project/).
 
 IMPORTANT: New repository name:
-**nlp-01-getting-started-custom**.
+**cintel-01-getting-started-custom**.
 
 VERIFY: You have completed git add-commit-push to GitHub at least twice.
 
@@ -56,28 +45,22 @@ Ensure your new custom project runs like the example.
 Verify that key files have been updated to use **your GitHub account** and
 the **new custom repository name**.
 
-No new analysis or technical modification is required.
-
 ## E. Finalize Project
 
 Follow [Workflow E: Finalize Project](https://denisecase.github.io/pro-analytics-02/workflow-e-finalize/).
 
-Since no analytical changes are required,
-`docs/index.md` needs only minor updates.
-
-Update project-specific links to ensure they point to
-**your GitHub account** and the
-**new custom repository name**.
+Since we didn't update anything, `docs/index.md` doesn't need many changes.
+Just update the project-specific links in docs to ensure they point to
+**your GitHub account** and the **new custom repository name**.
 
 ## Success
 
-- [ ] README.md project-specific links use **your GitHub account**.
+- [ ] README.md project-specific links use **your GitHub account**
 - [ ] README.md project-specific links use **your custom repository name**.
-- [ ] docs/index.md project-specific links use **your GitHub account**.
+- [ ] docs/index.md project-specific links use **your GitHub account**
 - [ ] docs/index.md project-specific links use **your custom repository name**.
 - [ ] pyproject.toml `name` has been changed to use **your custom repository name**.
-- [ ] The `src/nlp` package path is unchanged.
-- [ ] The example script runs successfully and produces its results.
+- [ ] The `src/cintel` folder and its package path are unchanged.
 - [ ] All necessary commands are provided and work successfully.
 - [ ] Links to the Professional Python Guide (pro-analytics-02) remain unchanged.
 - [ ] Commit history shows **at least** the git add-commit-push history required in the instructions.
