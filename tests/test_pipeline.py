@@ -1,4 +1,4 @@
-"""tests/test_main.py - Smoke test for the example.
+"""tests/test_pipeline.py - Smoke test for the example.
 
 WHY: Professional Python projects include tests to verify that code runs
      correctly and to catch problems early when changes are made.

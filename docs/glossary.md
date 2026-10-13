@@ -2,7 +2,6 @@
 
 In this first module, the goal is simply
 to get a professional Python project running.
-If you're curious about a term, this may help.
 
 ## Continuous Intelligence
 

@@ -1,15 +1,19 @@
 # ============================================================
-# pyproject.toml (ALL-PY-SRC-REPOS)
+# pyproject.toml (Python project configuration)
 # ============================================================
-# REQ: Python projects SHOULD include pyproject.toml as the single source of truth.
-# WHY: Centralizes Python project configuration.
+# Updated: 2026-10-11
+#
+# REQ: All Python src/ projects SHOULD include pyproject.toml.
+# WHAT: Defines project identity, dependencies, and build configuration.
+# WHY: Keeps Python project metadata and package requirements together.
+# CUSTOM: Update project identity, dependencies, and package paths.
 
 # ============================================================
-# === SECTION 1: PROJECT IDENTITY ===
+# === SECTION: PROJECT IDENTITY ===
 # ============================================================
 
 [project]
-name = "cintel" # Project name (use lowercase and dashes).
+name = "cintel-01-getting-started"  # Usually matches repository name (use lowercase and dashes).
 readme = "README.md"
 requires-python = ">=3.14"
 version = "0.1.0"
@@ -17,14 +21,12 @@ version = "0.1.0"
 dependencies = [
     # REQ: External packages used by the project code.
     "datafun-toolkit", # WHY: Provides professional Python utilities for privacy-preserving logging.
-    "marimo", # WHY: Enables reactive web app for app.py.
 ]
 
 [dependency-groups]
 # WHY: Optional dependency groups keep the core install clean and focused.
 dev = [
     # REQ: External packages used for linting, testing, type checking, etc.
-    "prek",       # WHY: Run repository hooks for consistent formatting, linting, and checks.
     "pytest>=9",  # WHY: Test framework for unit and integration tests.
     "pytest-cov", # WHY: Test coverage reporting for quality assurance.
     "ruff",       # WHY: Fast linting and formatting for code quality and consistency.
@@ -38,62 +40,8 @@ docs = [
 
 
 # ============================================================
-# SECTION 2: TOOL CONFIGURATION
+# SECTION: TOOL CONFIGURATION
 # ============================================================
-
-# === MARIMO REACTIVE NOTEBOOKS ===
-
-[tool.marimo.save]
-autosave = "after_delay"
-autosave_delay = 1000
-format_on_save = true
-
-[tool.marimo.package_management]
-manager = "uv"
-
-[tool.marimo.runtime]
-pythonpath = ["./src"]
-
-# === PYTEST (VERIFY LOGIC) ===
-
-[tool.pytest.ini_options]
-# WHY: Consistent test discovery and coverage visibility.
-minversion = "9.0"
-testpaths = ["tests"]
-addopts = "--cov=src --cov-fail-under=20 --cov-report=term-missing"
-filterwarnings = [
-    "ignore:FigureCanvasAgg is non-interactive, and thus cannot be shown:UserWarning",
-]
-
-# === RUFF (PYTHON FORMATTING AND LINTING) ===
-
-[tool.ruff.lint] # WHY: Evolve with Ruff's defaults; production might pin an explicit set.
-extend-select = [
-    # --- turn on for additional linting rules ---
-    # "D",  # WHY: Require docstrings; VS Code helps generate them.
-]
-
-[tool.ruff.lint.isort] # WHY: Sort plain-import and from-import lines together within each section.
-force-sort-within-sections = true
-
-[tool.ruff.lint.per-file-ignores] # WHY: Some file types need lint exceptions.
-"src/**/__init__.py" = ["F401"] # Allow re-export patterns.
-"src/**/_version.py" = ["ALL"] # Auto-generated file; do not lint.
-"tests/**/*.py" = ["D", "B018"] # Tests need no docstrings; B018 is default-on.
-"notebooks/**/*.py" = [
-    "D",
-    "PLR1711",
-    "RUF059",
-] # marimo cells: bare returns + cell-scoped unused vars are the format, not defects
-"src/**/notebook.py" = [
-    "B018",
-    "D",
-    "PLR1711",
-    "RUF059",
-] # marimo cells: bare returns + cell-scoped unused vars are the format, not defects
-
-[tool.ruff.lint.pydocstyle] # WHY: Use Google docstring style when D is enabled.
-convention = "google"
 
 # === UV (PYTHON ENVIRONMENT AND DEPENDENCY MANAGEMENT) ===
 
@@ -109,7 +57,7 @@ exclude-newer = "7 days"
 exclude-newer-package = { datafun-toolkit = false, cintel = false }
 
 # ============================================================
-# SECTION 3: BUILD SYSTEM (boilerplate; CUSTOM src/ agreement)
+# SECTION: BUILD SYSTEM
 # ============================================================
 #
 # REQ.PROJECT: A build system MUST be declared for package discovery and publishing.
