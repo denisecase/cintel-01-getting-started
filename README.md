@@ -45,6 +45,7 @@ Explore these important project components:
 - [tests/](tests/) - automated tests.
 - [.github/workflows/](.github/workflows/) - automated testing and documentation deployment.
 - [docs/](docs/) - project documentation.
+- [zensical.toml](zensical.toml) - project documentation configuration must have correct links.
 
 ## Run the Project
 
